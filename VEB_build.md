@@ -30,6 +30,5 @@ makefile:83: recipe for target 'AptioV' failed
 make: *** [AptioV] Error 2
 ```
 1. 大概問題介紹：Windows 為了方便使用者，預設在系統路徑中放了一個名為 python.exe 的「空殼（捷徑）」，對於 BIOS 編譯環境來說，這個「空殼」會導致你的編譯腳本（如 BuildImage.py）因為抓不到真正的執行檔而中斷，進而產生你之前遇到的 outimage.map 找不到的問題。
-2. 
-到以下圖片把與python.exe相關的全部切換為關閉。
+2. 到以下圖片把與python.exe相關的全部切換為關閉。
 <img width="854" height="561" alt="image" src="https://github.com/user-attachments/assets/adc85595-2647-4d6d-9735-34301ab1dc8c" />
