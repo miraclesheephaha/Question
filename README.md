@@ -1,4 +1,4 @@
-# github remote queation
+# github remote question
 * 遇到ENOENT: no such file or directory, open.d:\git\refs\remotes\origin\main
 * solve:只需要建立該資料夾即可，因為系統搜尋的就是這個資料夾。refs/remotes/origin/main如其他答案所述，只需建立這個空資料夾即可解決此搜尋錯誤。
   (參考連結)[https://stackoverflow.com/questions/57361723/error-when-pull-or-push-to-git-enoent-no-such-file-or-directory]
